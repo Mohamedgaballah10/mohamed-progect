@@ -1,0 +1,466 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: #444444b1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 65px;
+    height: 70px;
+    margin-left: 80px;
+}
+.navbar .list{
+    display: flex;
+    list-style: none;
+    transform:translateX(900px)
+}
+.navbar .list li{
+    margin-left: 20px;
+   
+}
+.navbar .list li a{
+    text-decoration: none;
+ color: black;
+}
+.navbar .list li a:hover{
+    color: blue;
+}
+header{
+    transform: translateY(-28px);
+}
+.hero{
+    height: 60vh;
+    background-image: linear-gradient(rgba(100,100,100,.25),rgba(100,100,100,.25)) , url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 60vh;
+
+}
+.hero h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.hero h3{
+    text-align: center;
+    color: white;
+    transform:translateY(-20px)
+}
+.button{
+    text-align: center;
+    margin-top: 40px;
+}
+.button a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-sizing: 5px;
+}
+.desc{
+    margin-left: 20px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.desc h1{
+    color: rgb(0, 140, 255,);
+}
+.desc p{
+    color:rgba(100, 100, 100, .7);
+}
+.works{
+    text-align: center;
+    padding: 70px 250px;
+}
+ 
+.works h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+
+.works p{
+    text-align: center;
+    transform:translateY(-20px)
+}
+ .works .imgsone{ 
+ display:flex;
+ gap: 20px;
+ align-items: center;
+ text-align: center;
+ margin-bottom: 40px;
+
+}  
+.works .imgsone img{
+    transform: translateY(20px);
+    width: 350px;
+    height: 400px;
+}
+.works .imgstwo{ 
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center; 
+    margin-bottom: 60px;
+}
+.works .imgstwo img{
+    width: 350px;
+    height: 400px;
+}
+
+.startegy{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    margin:50px 80px;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+.startegy img{
+    width: 500px;
+    padding: 20px;
+
+}
+.startegy .divs{
+    color: #fff;
+    display: grid;
+    grid-template-columns:300px 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonials h1{
+    text-align: center;
+    font-size: 40px;
+}
+.testimonials p{
+    text-align: center;
+}
+.testimonials .robert{
+    display: flex;
+text-align: center;
+}
+.testimonials .robert img{
+    width: 50px;
+    border-radius: 30px;
+    transform: translateX(700px);
+    margin-right: 10px;
+}
+.testimonials .robert h4{
+    text-align: center;
+    transform: translateX(700px);
+    opacity: .7;
+}
+
+.Our-Services .div0{
+    padding: 50px;
+    width: 90%;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.Our-Services .div1{
+    display: flex;
+    gap: 20px;
+    width: 30%;
+}
+.Our-Services .div2{
+    display: flex;
+    gap: 20px;
+    width: 30%;
+}
+.Our-Services .div3{
+    display: flex;
+    gap: 20px;
+    width: 30%;
+}
+.Our-Services .div0 p{
+    margin-top: 6px;
+    margin-bottom: 30px;
+    line-height:25px;
+}
+.Our-Services .div00{
+    padding: 50px;
+    width: 90%;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.Our-Services .div4{
+    display: flex;
+    gap: 20px;
+    width: 30%;
+}
+.Our-Services .div5{
+    display: flex;
+    gap: 20px;
+    width: 30%;
+}
+.Our-Services .div6{
+    display: flex;
+    gap: 20px;
+    width: 30%;
+}
+.Our-Services .div00 p{
+    margin-top: 6px;
+    margin-bottom: 30px;
+    line-height:25px;
+}
+.About{
+   display: flex;
+    width: 70%;
+    margin-left: 100px;
+    margin-bottom: 130px;
+}
+.About h1{
+    font-size: 50px;
+    margin-left: 60px;
+    
+}
+.About p{
+    opacity: .6;
+    margin-left: 60px;
+}
+.About .parent{
+    display: flex;
+}
+.about1{
+    
+    margin-top: 40px;
+}
+.about1 h2{
+    font-size: 18px;
+    opacity: .5;
+    transform: translatey(10px);
+    margin-left: 60px;
+}
+.about1 a{
+    text-decoration: none;
+    margin-left: 60px;
+}
+.about2{
+    
+    margin-top: 40px;
+}
+.about2 h2{
+    font-size: 18px;
+    opacity: .5;
+    transform: translatey(10px);
+    margin-left: 60px;
+}
+.about2 a{
+    text-decoration: none;
+    margin-left: 60px;
+}
+.About .aabout{
+    width: 30%;
+    height: 30%;
+    margin-right: 150px;
+}
+.photo .ones{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+
+}
+.photo .ones img{
+    width: 115px;
+    height: 30%;
+    border-radius: 45px;
+}
+.photo .ones h6{
+    font-size: 10px;
+    opacity: .5;
+
+}
+.photo .ones p{
+    text-align: justify;
+    opacity: .5;
+}
+.forms{
+    background-color: #f0e6f0c9;
+}
+.forms h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.forms h5{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.forms .f{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+padding: 30px;
+margin-top: 80px;
+}
+.forms .f .name{
+    display: flex;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+.forms .f label{
+    display: block;
+    margin-bottom: 15px;
+}
+.forms .f input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.forms .f textarea{
+    width: 95%;
+    border-radius: 20px;
+    outline: none;
+}
+
+.forms form .sub{
+    width: 150px;
+    transform: translate(300px,0px);
+}
+.footer{
+    display: flex;
+    background-color: #545151;
+    padding: 70px 100px;
+    color: #fff;
+    gap: 100px;
+    justify-content: space-between;
+}
+.footer .a{
+    width: 30%;
+}
+.footer .a h2{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.footer .a p{
+    font-size: 15px;
+    opacity: .5;
+}
+.footer .b{
+    line-height: 30px;
+    font-size: 10px;
+}
+.footer .c h2{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.footer .c i{
+    margin-right: 15px;
+    opacity: .5;
+}
+.footer .d h2{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.footer .d input{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 120%;
+    border-radius: 15px;
+    border: none;
+}
+.footer .d a{
+    text-decoration: none;
+    margin-left: 80px;
+    border: 1px solid rgb(59, 59, 246);
+    padding: 5px 20px;
+    background-color: rgb(59, 59, 246);
+    color: #fff;
+    border-radius: 12px;
+
+}
+
+
+
+
+
+
